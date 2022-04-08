@@ -10,7 +10,6 @@ const changeColorSquare = function () {
 };
 
 const changeCircle = function (event) {
-  console.log(event.target.value);
   circle.style.width = event.target.value + '%';
   circle.style.height = event.target.value + '%';
 };
